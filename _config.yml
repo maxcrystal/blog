@@ -23,7 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://maxcrystal.github.io"
 teaser: /assets/images/500x300.png
 twitter_username: username
-github_username: username
+github_username: maxcrystal
 minimal_mistakes_skin: default
 search: true
 
@@ -68,16 +68,16 @@ author:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://maxcrystal.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/maxcrystal"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/thearr"
   location: "Москва, РФ"
 
 footer:
@@ -87,10 +87,10 @@ footer:
       url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/maxcrystal"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/thearr"
 
 defaults:
   # _posts
