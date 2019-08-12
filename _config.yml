@@ -121,7 +121,13 @@ tag_archive:
   type: liquid
   path: /tags/
 
+# comments:
+#   provider: "disqus"
+#   disqus:
+#     shortname: "borromeo"
 comments:
-  provider: "disqus"
-  disqus:
-    shortname: "borromeo"
+  provider: "facebook"
+  facebook:
+    appid: # optional
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
