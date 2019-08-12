@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Cf.
-subtitle: Borromeo
+title: Cf. Borromeo
+# subtitle: Ver. 1
 logo: /assets/images/borromean_rings.png
 email: hmi@ya.ru
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-url: "https://maxcrystal.github.io"
+url: "https://borromeo.cf"
 # teaser: /assets/images/500x300.png
 twitter_username: username
 github_username: maxcrystal
@@ -68,25 +68,25 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Здесь будет описание моей прекрасной биографии в одном предложении"
   links:
-    - label: "Сайт"
-      icon: "fas fa-fw fa-link"
-      url: "https://maxcrystal.github.io"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    # - label: "Сайт"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://maxcrystal.github.io"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/maxcrystal"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/thearr"
-  location: "Москва, РФ"
+  # location: "Москва, РФ"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/maxcrystal"
@@ -120,3 +120,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "borromeo"
