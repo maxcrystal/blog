@@ -67,7 +67,7 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
-    - label: "Website"
+    - label: "Сайт"
       icon: "fas fa-fw fa-link"
       url: "https://maxcrystal.github.io"
     - label: "Twitter"
