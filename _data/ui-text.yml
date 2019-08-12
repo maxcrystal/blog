@@ -650,7 +650,7 @@ ru: &DEFAULT_RU
   share_on_label             : "Поделиться"
   meta_label                 :
   tags_label                 : "Тэги:"
-  categories_label           : "Разделы:"
+  categories_label           : "Темы:"
   date_label                 : "Дата изменения:"
   comments_label             : "Оставить комментарий"
   comments_title             : "Комментарии"
