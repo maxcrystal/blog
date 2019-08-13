@@ -655,10 +655,10 @@ ru: &DEFAULT_RU
   comments_label             : "Оставить комментарий"
   comments_title             : "Комментарии"
   more_label                 : "Читать далее"
-  related_label              : "Вам также может понравиться"
+  related_label              : "Что еще почитать"
   follow_label               : <i class="fas fa-link fa-2x"></i>
   feed_label                 : "RSS-лента"
-  powered_by                 : "Сайт работает на"
+  powered_by                 : "Powered by"
   website_label              : "Сайт"
   email_label                : "Электронная почта"
   recent_posts               : "Недавние заметки"
