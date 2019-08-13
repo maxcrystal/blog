@@ -637,8 +637,8 @@ ru: &DEFAULT_RU
   skip_content               : "Перейти к содержанию"
   skip_footer                : "Перейти к концу страницы"
   page                       : "Страница"
-  pagination_previous        : "Предыдущая"
-  pagination_next            : "Следующая"
+  pagination_previous        : <i class="fas fa-long-arrow-alt-left"></i>
+  pagination_next            : <i class="fas fa-long-arrow-alt-right"></i>
   breadcrumb_home_label      : "Главная"
   breadcrumb_separator       : "/"
   menu_label                 : "Выпадающее меню"

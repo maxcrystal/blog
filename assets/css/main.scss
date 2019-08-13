@@ -11,3 +11,17 @@
 .page__footer-copyright {
   font-size: $type-size-8;
 }
+
+// Small pagination buttons on large screens
+.pagination--pager {
+  border-radius: 12px;
+  width: 50%;
+  @include breakpoint($large) {
+    width: 25%;
+  }
+}
+
+// Always show excerpts (even on small screens)
+.archive__item-excerpt {
+  display: block !important;
+}
