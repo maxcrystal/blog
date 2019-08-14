@@ -132,7 +132,7 @@ comments:
     num_posts: 10 # 5 (default)
     colorscheme: # "light" (default), "dark"
 
-# Google Analytica Gtag
+# Google Analytics Gtag
 analytics:
   provider: "google-gtag"
   google:
