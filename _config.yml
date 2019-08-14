@@ -131,3 +131,10 @@ comments:
     appid: # optional
     num_posts: 10 # 5 (default)
     colorscheme: # "light" (default), "dark"
+
+# Google Analytica Gtag
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-67686098-1"
+    anonymize_ip: false # default
