@@ -138,3 +138,6 @@ analytics:
   google:
     tracking_id: "UA-67686098-1"
     anonymize_ip: false # default
+
+# Search engines verification
+google_site_verification: "hJePXTM8iwn-qIbYWJPGPe-DIwEg2JhI-zNDEVUpXXI"
