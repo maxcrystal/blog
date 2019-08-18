@@ -1,0 +1,14 @@
+ksu:
+  name        : "Ксюша Берналь"
+  bio         : "Рисую, пою, сочиняю"
+  avatar      : "/assets/images/borromean_rings.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:ksushabernal@yandex.ru"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/ksushabernal"
+    - label: "Sound Cloud"
+      icon: "fab fa-fw fa-soundcloud"
+      url: "https://soundcloud.com/ksushabernal"
