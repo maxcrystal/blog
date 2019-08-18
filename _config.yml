@@ -126,7 +126,6 @@ comments:
 jekyll_compose:
   draft_default_front_matter:
     layout: single
-    title: new-test
     excerpt: Post content description.
     header:
       teaser: /assets/images/500x300.png
@@ -136,14 +135,15 @@ jekyll_compose:
       actions:
         - label:
           url:
-    category: New
-    tags: post
+    categories: 
+      - New
+    tags: 
+      - post
     comments: true
     share: true
     related: true
   post_default_front_matter:
     layout: single
-    title: new-test
     excerpt: Post content description.
     header:
       teaser: /assets/images/500x300.png
@@ -153,8 +153,10 @@ jekyll_compose:
       actions:
         - label:
           url:
-    category: New
-    tags: post
+    categories: 
+      - New
+    tags: 
+      - post
     comments: true
     share: true
     related: true  
