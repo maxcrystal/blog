@@ -115,18 +115,12 @@ tag_archive:
   path: /tags/
 
 # Comments
-# comments:
-#   provider: "facebook"
-#   facebook:
-#     appid: # optional
-#     num_posts: 10 # 5 (default)
-#     colorscheme: # "light" (default), "dark"
-repository  : maxcrystal/maxcrystal.github.io
 comments:
-  provider  : "staticman_v2"
-  staticman:
-    branch    : "master"
-    endpoint  : https://dev.staticman.net/v3/entry/github
+  provider: "facebook"
+  facebook:
+    appid: # optional
+    num_posts: 10 # 5 (default)
+    colorscheme: # "light" (default), "dark"
 
 # Jekyll-Compose settings
 jekyll_compose:
