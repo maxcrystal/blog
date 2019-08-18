@@ -18,9 +18,8 @@ title: Cf. Borromeo
 logo: /assets/images/borromean_rings.png
 email: hmi@ya.ru
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Личный блог Максима Хрусталева -- о всем, что мне интересно, кроме работы: 
+  программирование, микроэлектроника, спорт, дети, музыка, фотография, наука.
 url: "https://borromeo.cf"
 # teaser: /assets/images/500x300.png
 twitter_username: username
@@ -62,37 +61,29 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-compose
 
 author:
   name   : "Максим Хрусталев"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Здесь будет описание моей прекрасной биографии в одном предложении"
+  bio    : "Личный блог --- о всём, что мне интересно, кроме работы"
   links:
-    # - label: "Сайт"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://maxcrystal.github.io"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/maxcrystal"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/thearr"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/mhrustalev"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/maxcrystal"
   # location: "Москва, РФ"
 
 footer:
   links:
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/maxcrystal"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/thearr"
+      url: "https://github.com/maxcrystal/maxcrystal.github.io"
 
 defaults:
   # _posts
@@ -114,6 +105,8 @@ defaults:
       layout: single
       author_profile: true
 
+teaser: /assets/images/500x300.png
+
 category_archive:
   type: liquid
   path: /categories/
@@ -121,16 +114,50 @@ tag_archive:
   type: liquid
   path: /tags/
 
-# comments:
-#   provider: "disqus"
-#   disqus:
-#     shortname: "borromeo"
+# Comments
 comments:
   provider: "facebook"
   facebook:
     appid: # optional
     num_posts: 10 # 5 (default)
     colorscheme: # "light" (default), "dark"
+
+# Jekyll-Compose settings
+jekyll_compose:
+  draft_default_front_matter:
+    layout: single
+    title: new-test
+    excerpt: Post content description.
+    header:
+      teaser: /assets/images/500x300.png
+      overlay_image: /assets/images/about_circles.jpg
+      overlay_filter: rgba(0, 0, 0, 0.5)
+      caption:
+      actions:
+        - label:
+          url:
+    category: New
+    tags: post
+    comments: true
+    share: true
+    related: true
+  post_default_front_matter:
+    layout: single
+    title: new-test
+    excerpt: Post content description.
+    header:
+      teaser: /assets/images/500x300.png
+      overlay_image: /assets/images/about_circles.jpg
+      overlay_filter: rgba(0, 0, 0, 0.5)
+      caption:
+      actions:
+        - label:
+          url:
+    category: New
+    tags: post
+    comments: true
+    share: true
+    related: true  
 
 # Google Analytics Gtag
 analytics:
