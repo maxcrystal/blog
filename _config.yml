@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Cf. Borromeo
+title: cf. Borromeo
 # subtitle: Ver. 1
 logo: /assets/images/borromean_rings.png
 email: hmi@ya.ru
 description: >- # this means to ignore newlines until "baseurl:"
-  Личный блог Максима Хрусталева -- о всем, что мне интересно, кроме работы: 
+  Личный блог Максима Хрусталева -- о всем, что мне интересно, помимо работы: 
   программирование, микроэлектроника, спорт, дети, музыка, фотография, наука.
 url: "https://borromeo.cf"
 # teaser: /assets/images/500x300.png
@@ -66,7 +66,7 @@ plugins:
 author:
   name   : "Максим Хрусталев"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Личный блог --- о всём, что мне интересно, кроме работы"
+  bio    : "Личный блог --- о всём, что мне интересно, помимо работы"
   links:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"

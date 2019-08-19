@@ -1,11 +1,20 @@
 ---
 permalink: /about/
 title: "О блоге"
+excerpt: "*см.* кольца Борромео"
 header:
   overlay_image: /assets/images/about_circles.jpg
-  overlay_filter: 0.5
+  overlay_filter: 0.7
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+![Кольца Борромео](/assets/images/borromean_rings.png){: .align-left} 
+Название блога <<*cf.* Borromeo>>, где под *Borromeo* подразумевается *Borromean rings*. На русский это можно перевести как <<*см.* кольца Борромео>> --- три окружности, сцепленные между собой таким образом, что исключение любой из них сразу приведет к разъединению двух остальных. Кольца эти известны [очень давно][usage], а современное свое название получили из-за использования в гербе известной итальянской аристократической семьи Борромео.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+В различных контекстах, таких как религия, искусство, психоанализ и прочие поиски смысла человеческой жизни кольца Борромео использовались, чтобы показать силу единства, даже как символ Троицы. Я же в него закладываю три составные части моей собсвтенной жизненной философии: результат, развитие и удоволетворение. Без развития не будет высоких результатов, а без результатов сложно получать удовлетворение от совершенной работы. Не будет удовлетворения --- нет мотивации к дальнейшему развитию и т.д. по кругу.
+
+Что еще больше привлекает меня в этих кольцах, то что их нельзя сцепить таким образом, если использовать идеальные окружности. В трехмерном пространстве необходимо, чтобы они были немножко искривлены. Наш мир не идеален, и немного несовершенства никогда не повредит, а наоборот, даже полезно.
+
+
+
+*[cf.]: Аббревиатура от cōnfer, в импеартиве cōnferō, происходит от con- ("вместе") и ferō ("приносить"). Часто используется в англоязычных научных публикациях как синоним "см. также".
+[usage]: https://im-possible.info/russian/articles/borromeo/index.html "Примеры использования колец Борромео"
