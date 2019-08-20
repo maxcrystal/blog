@@ -116,11 +116,9 @@ tag_archive:
 
 # Comments
 comments:
-  provider: "facebook"
-  facebook:
-    appid: # optional
-    num_posts: 10 # 5 (default)
-    colorscheme: # "light" (default), "dark"
+  provider: "disqus"
+  disqus:
+    shortname: "borromeo"
 
 # Jekyll-Compose settings
 jekyll_compose:
