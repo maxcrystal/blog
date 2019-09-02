@@ -52,6 +52,9 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - idyll
+
 
 # Plugins (previously gems:)
 plugins:
