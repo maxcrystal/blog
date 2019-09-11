@@ -1,13 +1,19 @@
 # System
+# ------
 .DS_Store
 
 # Jekyll
+# ------
 _site/
 _drafts/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 
+# Idyll
+# -----
+idyll/
+explain/
 
 # Logs
 logs
