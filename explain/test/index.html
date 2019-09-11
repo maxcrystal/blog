@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Test</title>
+    <meta property="og:title" content="Test" />
+    <meta charset="utf-8" />
+    <meta property="og:type" content="article" />
+
+    <meta property="og:description" content="Short description of your project" />
+    <meta property="description" content="Short description of your project" />
+
+    <link rel="stylesheet" href="static/idyll_styles.css" />
+  </head>
+  <body>
+    <div id="idyll-mount"><div data-reactroot=""><div class="idyll-root"><div class=" idyll-text-container"></div><div class="article-header" style="background:#111111;color:#ffffff"><h1 class="hed">Test</h1><h2 class="dek">Welcome to Idyll. Open index.idyll to start writing</h2><div class="byline">By: <a href="https://idyll-lang.org">Your Name Here</a></div><div class="idyll-pub-date">Sat Sep 07 2019</div></div><div class=" idyll-text-container"><h2 id="introduction">Introduction</h2><p>This is an Idyll post. It is generated via
+the file <code>index.idyll</code>. To compile this post using
+idyll, run the command <code>idyll</code> inside of this directory.</p><p>Idyll posts are designed to support interaction and
+data-driven graphics.</p><div class="d3-component" style="width:100%"></div><button>
+  Click Me.</button><p>Configuration can be done via the <code>idyll</code> field in <code>package.json</code>.</p><h2 id="vega-lite">Vega Lite</h2><div class="ReactTable table "><div class="rt-table" role="grid"><div class="rt-thead -header" style="min-width:200px"><div class="rt-tr" role="row"><div class="rt-th rt-resizable-header -cursor-pointer" role="columnheader" tabindex="-1" style="flex:100 0 auto;width:100px"><div class="rt-resizable-header-content">name</div><div class="rt-resizer"></div></div><div class="rt-th rt-resizable-header -cursor-pointer" role="columnheader" tabindex="-1" style="flex:100 0 auto;width:100px"><div class="rt-resizable-header-content">value</div><div class="rt-resizer"></div></div></div></div><div class="rt-tbody" style="min-width:200px"><div class="rt-tr-group" role="rowgroup"><div class="rt-tr -odd" role="row"><div class="rt-td" role="gridcell" style="flex:100 0 auto;width:100px">A</div><div class="rt-td" role="gridcell" style="flex:100 0 auto;width:100px">0</div></div></div><div class="rt-tr-group" role="rowgroup"><div class="rt-tr -even" role="row"><div class="rt-td" role="gridcell" style="flex:100 0 auto;width:100px">B</div><div class="rt-td" role="gridcell" style="flex:100 0 auto;width:100px">5</div></div></div></div></div><div class="-loading"><div class="-loading-inner">Loading...</div></div></div><h2 id="markup">Markup</h2><p>Idyll is based on Markdown.</p><p>You can use familiar syntax
+to create <strong>bold</strong> (<code>**bold**</code> ) and <em>italic</em> (<code>*italic*</code> ) styles,</p><ul><li>lists</li><li>of</li><li>items,</li></ul><pre><code>* lists
+* of
+* items,</code></pre><ol><li>and numbered</li><li>lists</li><li>of items,</li></ol><pre><code>1. and numbered
+2. lists
+3. of items,</code></pre><p>in addition to <a href="https://idyll-lang.org">hyperlinks</a> and images:</p><img src="static/images/quill.svg" alt="quill"/><pre><code>![quill](static/images/quill.svg)</code></pre><h2 id="components">Components</h2><p>Components can be embedded using a bracket syntax:</p><pre><code>[Range /]</code></pre><p>and can contain nested content:</p><pre><code>[Equation]e = mc^{2}[/Equation]</code></pre><p>Components accept properties:</p><pre><code>[Range value:x min:0 max:1 /]</code></pre><p>that can be bound to variables to achieve interactivity (more in next section).</p><p>A variety of components are included by default. See <a href="https://idyll-lang.org/docs/components/">all the available components</a>. You can also use any html tag, for example: <code>[div] A div! [/div]</code>.</p><p>To create your own, add it to the <code>components/</code> folder. There are examples of how to use Idyll with React and D3 based components already included:</p><span class="aside-container"><span class="aside">This is a CustomComponent from <code>custom-component.js</code></span></span><div><svg width="300" height="50" style="display:block;margin:20px auto;background:white"><rect width="50" height="50" y="0" x="25" fill="#000"></rect><circle cx="50" cy="25" r="15" x="25" fill="#fff"></circle><rect width="50" height="50" y="0" x="125" fill="#000"></rect><circle cx="150" cy="25" r="15" x="25" fill="#fff"></circle><rect width="50" height="50" y="0" x="225" fill="#000"></rect><circle cx="250" cy="25" r="15" x="25" fill="#fff"></circle></svg></div><p>Here we are going to change it props:</p><div><div style="display:inline-block">Circle: <div><div class="ColorPicker" style="position:relative;height:9em;width:10em"><div class="HueSlider" style="position:absolute;user-select:none;top:0;bottom:1.3em;width:10px;cursor:ns-resize;right:1.3em"><div class="Slider__Track" style="background:linear-gradient(to bottom,
+              #FF0000 0%,
+              #FF0099 10%,
+              #CD00FF 20%,
+              #3200FF 30%,
+              #0066FF 40%,
+              #00FFFD 50%,
+              #00FF66 60%,
+              #35FF00 70%,
+              #CDFF00 80%,
+              #FF9900 90%,
+              #FF0000 100%
+            );position:absolute;bottom:0;top:0;width:100%;border-radius:1em"></div></div><div class="Map" style="position:absolute;top:0;bottom:1.3em;right:2.5em;left:0;overflow:hidden;user-select:none"><div class="Map__Background" style="top:0;left:0;position:absolute;height:100%;width:100%;background-color:rgb(255, 0, 0)"><span class="Map__Background__overlay" style="display:block;position:absolute;top:0;left:0;bottom:0;right:0;background:linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%),
+                 linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%)"></span></div></div></div></div></div><div style="display:inline-block">Rectangle: <div><div class="ColorPicker" style="position:relative;height:9em;width:10em"><div class="HueSlider" style="position:absolute;user-select:none;top:0;bottom:1.3em;width:10px;cursor:ns-resize;right:1.3em"><div class="Slider__Track" style="background:linear-gradient(to bottom,
+              #FF0000 0%,
+              #FF0099 10%,
+              #CD00FF 20%,
+              #3200FF 30%,
+              #0066FF 40%,
+              #00FFFD 50%,
+              #00FF66 60%,
+              #35FF00 70%,
+              #CDFF00 80%,
+              #FF9900 90%,
+              #FF0000 100%
+            );position:absolute;bottom:0;top:0;width:100%;border-radius:1em"></div></div><div class="Map" style="position:absolute;top:0;bottom:1.3em;right:2.5em;left:0;overflow:hidden;user-select:none"><div class="Map__Background" style="top:0;left:0;position:absolute;height:100%;width:100%;background-color:rgb(255, 0, 0)"><span class="Map__Background__overlay" style="display:block;position:absolute;top:0;left:0;bottom:0;right:0;background:linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%),
+                 linear-gradient(to right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%)"></span></div></div></div></div></div></div><div style="margin:30px auto;width:100%;height:600px"></div><input type="range" value="-2" min="-2" max="16" step="1"/><span class="idyll-display">-2.00</span><h2 id="interactivity">Interactivity</h2><p>Here is how you can instantiate a variable and bind it to a component:</p><input type="range" value="5" min="0" max="10" step="1"/><span class="idyll-display">5.00</span><pre><code>[var name:&quot;exampleVar&quot; value:5 /]
+
+[Range min:0 max:10 value:exampleVar /]
+[Display value:exampleVar /]</code></pre><h2 id="learn-more">Learn More</h2><p><span>To learn more see the documentation at <a href="https://idyll-lang.org/docs/,">https://idyll-lang.org/docs/,</a>
+join our </span><a href="https://gitter.im/idyll-lang/Lobby">chatroom</a>, or see the project on <a href="https://github.com/idyll-lang/idyll">GitHub</a>.</p></div></div></div></div>
+    <script src="static/idyll_index.js"></script>
+  </body>
+</html>
