@@ -14,6 +14,7 @@ comments: true
 share: true
 related: true
 toc: true
+toc_sticky: true
 gallery1:
   - image_path: /assets/posts/domoticz_floorplan/step_1.png
     url: /assets/posts/domoticz_floorplan/step_1.png
