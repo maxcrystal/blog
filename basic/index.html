@@ -22,11 +22,9 @@
 .CodeMirror-scroll { height: 100%; }
 </style>
 
-<h1>Applesoft BASIC на Javascript</h1>
-<p>
-<a target=_blank href="https://github.com/inexorabletash/jsbasic/">Joshua Bell</a>
-| <a target="_blank" href="reference.html">Справочник</a>
-</p>
+<h3>Applesoft BASIC на Javascript</h3>
+Автор интерпретатора <a target=_blank href="https://github.com/inexorabletash/jsbasic/">Joshua Bell</a>
+| <a target="_blank" href="reference.html">Справочник (англ.)</a>
 
 <br style="clear: both;">
 
@@ -38,17 +36,17 @@
 
   <select id="lb_files">
     <option disabled selected="selected">Посмотреть примеры...</option>
-    <option value="sample.basic">DEMOS</option>
+    <option value="sample.basic">ДЕМО</option>
 
     <option disabled>____________________________________________</option>
-    <option disabled>Tests</option>
+    <option disabled>Тесты</option>
     <option value="sample.unittests">&nbsp; Unit Tests</option>
     <option value="sample.keyboard">&nbsp; Keyboard Test</option>
     <option value="sample.charset">&nbsp; Charset Test</option>
 
 
     <option disabled>____________________________________________</option>
-    <option disabled>Games</option>
+    <option disabled>Игры</option>
 
     <option value="simple.pong">&nbsp; SIMPLE.PONG</option>
     <option value="sample.adventure">&nbsp; Text Adventure (Floyd McWilliams)</option>
@@ -61,7 +59,7 @@
     <option value="sample.doordetector">&nbsp; Door Detector (Jeff)</option>
 
     <option disabled>____________________________________________</option>
-    <option disabled>Graphics</option>
+    <option disabled>Графика</option>
 
     <option value="sample.rodscolorpattern">&nbsp; Rod's Color Pattern</option>
     <option value="sample.hacker">&nbsp; Hacker Logo (markwstock)</option>
@@ -87,7 +85,7 @@
     <option value="sample.ninjaturtle">&nbsp; Ninja Turtle (Chris Whong)</option>
 
     <option disabled>____________________________________________</option>
-    <option disabled>Other</option>
+    <option disabled>Другие</option>
 
     <option value="sample.primes">&nbsp; Prime Sieve (Kevin Miller)</option>
     <option value="sample.february">&nbsp; February Surprise (Antti Pirskanen)</option>
@@ -95,7 +93,7 @@
     <option value="sample.bodymass">&nbsp; Body Mass Index Calculator (Tim Dwyer)</option>
 
     <option disabled>____________________________________________</option>
-    <option disabled>Traveller RPG Utilities</option>
+    <option disabled>Traveller RPG утилиты</option>
 
     <option value="TRADER C">&nbsp; TRADER</option>
     <option value="sample.sectorgen">&nbsp; Traveller Sector Generator</option>
@@ -110,11 +108,11 @@
   <textarea name="source" id="source" style="display: none;">
   </textarea>
 
-  <button id="btn_save" title="Save as a file">&#x1F4BE; Сохранить</button>
-  <button id="btn_load" title="Load a file">&#x1F4C2; Загрузить</button>
+  <button id="btn_save" title="Сохранить в файл">&#x1F4BE; Сохранить</button>
+  <button id="btn_load" title="Загрузить из файла">&#x1F4C2; Загрузить</button>
 
-  <button id="show_paper" title="Echo all output to a &quot;print-out&quot;, so you can copy/paste">&#x1F4C3; Показать вывод</button>
-  <button id="hide_paper" title="Hide the &quot;print-out&quot;">&#x1F6AB; Скрыть вывод</button>
+  <button id="show_paper" title="Печатать на &quot;принтере&quot;, чтобы можно было скопировать вывод программы">&#x1F4C3; Показать принтер</button>
+  <button id="hide_paper" title="Скрыть &quot;принтер&quot;">&#x1F6AB; Скрыть принтер</button>
 
 </div>
 
