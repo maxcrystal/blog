@@ -4,10 +4,26 @@
 
 @charset "utf-8";
 
+/* type scale */
+// $type-size-1 : 1.953em;  // ~31.248px
+// $type-size-2 : 1.563em;  // ~25.008px
+// $type-size-3 : 1.25em;   // ~20px
+// $type-size-4 : 1em;      // ~16px
+// $type-size-5 : 0.75em;   // ~12px
+// $type-size-6 : 0.6875em; // ~11px
+// $type-size-7 : 0.625em;  // ~10px
+// $type-size-8 : 0.5625em; // ~9px
+$serif              : "PT Serif", Georgia, Times, serif;
+$sans-serif-narrow  : "PT Sans Narrow", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+
+$global-font-family : $serif;
+$header-font-family : $sans-serif-narrow;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
 // Customization
+
 .page__footer-copyright {
   font-size: $type-size-8;
 }
@@ -25,3 +41,31 @@
 .archive__item-excerpt {
   display: block !important;
 }
+
+// Aside & JXGBox
+.note {
+  @extend .sidebar__right;
+
+  font-size: 0.65em;
+  border-radius: 4px;
+  // padding: 10px 15px;
+  background-color: #f2f2f2;
+  padding: 15px 10px;
+  border-style: none;
+
+  @include breakpoint($large) {
+    position: relative;
+    float: right;
+    margin-left: 20px;
+  }
+}
+
+.jxgbox {
+  border-radius: 4px !important;
+  -webkit-border-radius: 4px !important;
+  &.jxgbox__note {
+    border-width: 0;
+    background-color: #f2f2f2;
+  }
+}
+
